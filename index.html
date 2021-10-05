@@ -1,0 +1,39 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ping Pong</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+</head>
+
+<body background="background1.jpg">
+    <center>
+        <div style="width: 100%; height: 15%; background-color: rgb(132, 0, 255);">
+            <span style=" font-size: 30px; color: white;">AI PING PONG <button class="btn btn-danger " data-toggle="modal " data-target="#instructions_modal " style="float: right; ">Instructions</button></span>
+        </div>
+        <br>
+        <br>
+        <br>
+        <button class="btn btn-success" onclick="startGame()">Play🎮</button>
+        <br>
+        <br>
+        <h3 id="status" style="color: white;"></h3>
+        <br>
+        <br>
+        <div id="myCanvas"></div>
+    </center>
+
+    <script src="main.js "></script>
+</body>
+
+</html>
